@@ -1,0 +1,342 @@
+{
+  "success": {
+    "workoutplan": [
+      {
+        "day": 1,
+        "workouts": [
+          {
+            "name": "Warm-up",
+            "sets": "None",
+            "reps": "None",
+            "weight": "None",
+            "description": "5-10 minutes of cardio (treadmill, bike) to get your heart rate up and loosen your muscles."
+          },
+          {
+            "name": "Barbell Bench Press",
+            "sets": 3,
+            "reps": 8,
+            "weight": 80,
+            "description": "A classic upper body exercise that targets your chest, shoulders, and triceps. Lie on a flat bench and grip the barbell with your hands slightly wider than shoulder-width apart."
+          },
+          {
+            "name": "Incline Dumbbell Press",
+            "sets": 3,
+            "reps": 10,
+            "weight": 15,
+            "description": "Targets the upper chest muscles. Sit on an incline bench and hold a dumbbell in each hand, then press the dumbbells upwards towards the ceiling."
+          },
+          {
+            "name": "Cable Flyes",
+            "sets": 3,
+            "reps": 12,
+            "weight": 10,
+            "description": "Targets the chest muscles. Stand facing a cable machine with the cable at chest height, then press the cable out to the sides until your arms are fully extended."
+          },
+          {
+            "name": "Triceps Pushdowns",
+            "sets": 3,
+            "reps": 10,
+            "weight": 12,
+            "description": "Targets the triceps. Hold a barbell or rope attachment with your hands shoulder-width apart, then extend your arms fully and lower the weight back down to the starting position."
+          },
+          {
+            "name": "Bicep Curls",
+            "sets": 3,
+            "reps": 12,
+            "weight": 8,
+            "description": "Targets the biceps. Stand with your feet shoulder-width apart, then curl the dumbbells up towards your shoulders."
+          },
+          {
+            "name": "Cool-down",
+            "sets": "None",
+            "reps": "None",
+            "weight": "None",
+            "description": "5-10 minutes of stretching to help your body recover from the workout."
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "workouts": [
+          {
+            "name": "Warm-up",
+            "sets": "None",
+            "reps": "None",
+            "weight": "None",
+            "description": "5-10 minutes of cardio (treadmill, bike) to get your heart rate up and loosen your muscles."
+          },
+          {
+            "name": "Pull-ups",
+            "sets": 3,
+            "reps": 8,
+            "weight": "None",
+            "description": "A classic upper body exercise that targets your back, shoulders, and arms. Hang from a pull-up bar with your hands shoulder-width apart, then pull yourself up until your chin is above the bar."
+          },
+          {
+            "name": "Barbell Rows",
+            "sets": 3,
+            "reps": 8,
+            "weight": 60,
+            "description": "Targets the back muscles. Hold a barbell with your hands shoulder-width apart, then bend your knees slightly and lean forward at the hips."
+          },
+          {
+            "name": "Lat Pulldowns",
+            "sets": 3,
+            "reps": 10,
+            "weight": 15,
+            "description": "Targets the latissimus dorsi muscles. Sit at a lat pulldown machine with your knees securely under the knee pad, then pull the bar down towards your chest."
+          },
+          {
+            "name": "Dumbbell Shoulder Press",
+            "sets": 3,
+            "reps": 8,
+            "weight": 12,
+            "description": "Targets the shoulder muscles. Stand with your feet shoulder-width apart, then press the dumbbells straight up over your head."
+          },
+          {
+            "name": "Cool-down",
+            "sets": "None",
+            "reps": "None",
+            "weight": "None",
+            "description": "5-10 minutes of stretching to help your body recover from the workout."
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "workouts": [
+          {
+            "name": "Warm-up",
+            "sets": "None",
+            "reps": "None",
+            "weight": "None",
+            "description": "5-10 minutes of cardio (treadmill, bike) to get your heart rate up and loosen your muscles."
+          },
+          {
+            "name": "Squats",
+            "sets": 3,
+            "reps": 8,
+            "weight": 80,
+            "description": "A compound exercise that targets your legs, glutes, and core. Stand with your feet shoulder-width apart, then lower your body down until your thighs are parallel to the ground."
+          },
+          {
+            "name": "Leg Press",
+            "sets": 3,
+            "reps": 10,
+            "weight": 120,
+            "description": "Targets the legs. Sit at a leg press machine with your feet shoulder-width apart on the platform, then push the platform away from you."
+          },
+          {
+            "name": "Lunges",
+            "sets": 3,
+            "reps": 10,
+            "weight": "None",
+            "description": "Targets the legs. Stand with your feet together, then take a large step forward with one foot and lower your body down until your back knee is almost touching the ground."
+          },
+          {
+            "name": "Calf Raises",
+            "sets": 3,
+            "reps": 12,
+            "weight": 20,
+            "description": "Targets the calf muscles. Stand on a step or platform, then raise up onto your tiptoes and lower back down."
+          },
+          {
+            "name": "Cool-down",
+            "sets": "None",
+            "reps": "None",
+            "weight": "None",
+            "description": "5-10 minutes of stretching to help your body recover from the workout."
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "workouts": [
+          {
+            "name": "Warm-up",
+            "sets": "None",
+            "reps": "None",
+            "weight": "None",
+            "description": "5-10 minutes of cardio (treadmill, bike) to get your heart rate up and loosen your muscles."
+          },
+          {
+            "name": "Deadlifts",
+            "sets": 3,
+            "reps": 8,
+            "weight": 100,
+            "description": "A compound exercise that targets your back, legs, and core. Stand with your feet shoulder-width apart, then bend down and grab a barbell or dumbbells with your hands shoulder-width apart."
+          },
+          {
+            "name": "Bent-Over Barbell Rows",
+            "sets": 3,
+            "reps": 8,
+            "weight": 60,
+            "description": "Targets the back muscles. Hold a barbell with your hands shoulder-width apart, then bend your knees slightly and lean forward at the hips."
+          },
+          {
+            "name": "Lat Pulldowns",
+            "sets": 3,
+            "reps": 10,
+            "weight": 15,
+            "description": "Targets the latissimus dorsi muscles. Sit at a lat pulldown machine with your knees securely under the knee pad, then pull the bar down towards your chest."
+          },
+          {
+            "name": "Tricep Dips",
+            "sets": 3,
+            "reps": 10,
+            "weight": "None",
+            "description": "Targets the triceps. Sit on the edge of a bench or chair, then place your hands next to your hips and lower your body down by bending your elbows."
+          },
+          {
+            "name": "Cool-down",
+            "sets": "None",
+            "reps": "None",
+            "weight": "None",
+            "description": "5-10 minutes of stretching to help your body recover from the workout."
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "workouts": [
+          {
+            "name": "Warm-up",
+            "sets": "None",
+            "reps": "None",
+            "weight": "None",
+            "description": "5-10 minutes of cardio (treadmill, bike) to get your heart rate up and loosen your muscles."
+          },
+          {
+            "name": "Shoulder Press",
+            "sets": 3,
+            "reps": 8,
+            "weight": 20,
+            "description": "Targets the shoulder muscles. Stand with your feet shoulder-width apart, then press the dumbbells straight up over your head."
+          },
+          {
+            "name": "Lateral Raises",
+            "sets": 3,
+            "reps": 10,
+            "weight": 12,
+            "description": "Targets the shoulder muscles. Stand with your feet shoulder-width apart, then raise the dumbbells out to the sides until they are at shoulder height."
+          },
+          {
+            "name": "Front Raises",
+            "sets": 3,
+            "reps": 10,
+            "weight": 10,
+            "description": "Targets the shoulder muscles. Stand with your feet shoulder-width apart, then raise the dumbbells forward and up until they are at shoulder height."
+          },
+          {
+            "name": "Bicep Curls",
+            "sets": 3,
+            "reps": 12,
+            "weight": 8,
+            "description": "Targets the biceps. Stand with your feet shoulder-width apart, then curl the dumbbells up towards your shoulders."
+          },
+          {
+            "name": "Cool-down",
+            "sets": "None",
+            "reps": "None",
+            "weight": "None",
+            "description": "5-10 minutes of stretching to help your body recover from the workout."
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "workouts": [
+          {
+            "name": "Warm-up",
+            "sets": "None",
+            "reps": "None",
+            "weight": "None",
+            "description": "5-10 minutes of cardio (treadmill, bike) to get your heart rate up and loosen your muscles."
+          },
+          {
+            "name": "Calf Raises",
+            "sets": 3,
+            "reps": 12,
+            "weight": 20,
+            "description": "Targets the calf muscles. Stand on a step or platform, then raise up onto your tiptoes and lower back down."
+          },
+          {
+            "name": "Seated Leg Curls",
+            "sets": 3,
+            "reps": 10,
+            "weight": 20,
+            "description": "Targets the hamstrings. Sit at a seated leg curl machine with your legs hanging off the edge of the bench, then curl your legs up towards your glutes."
+          },
+          {
+            "name": "Glute Bridges",
+            "sets": 3,
+            "reps": 10,
+            "weight": "None",
+            "description": "Targets the glutes. Lie on your back with your knees bent and feet flat on the ground, then lift your hips up towards the ceiling."
+          },
+          {
+            "name": "Russian Twists",
+            "sets": 3,
+            "reps": 10,
+            "weight": 10,
+            "description": "Targets the obliques. Sit on the floor with your knees bent and feet flat, then twist your torso from side to side."
+          },
+          {
+            "name": "Cool-down",
+            "sets": "None",
+            "reps": "None",
+            "weight": "None",
+            "description": "5-10 minutes of stretching to help your body recover from the workout."
+          }
+        ]
+      },
+      {
+        "day": 7,
+        "workouts": [
+          {
+            "name": "Warm-up",
+            "sets": "None",
+            "reps": "None",
+            "weight": "None",
+            "description": "5-10 minutes of cardio (treadmill, bike) to get your heart rate up and loosen your muscles."
+          },
+          {
+            "name": "Burpees",
+            "sets": 3,
+            "reps": 8,
+            "weight": "None",
+            "description": "A full-body exercise that targets your arms, legs, and core. Start in a standing position, then drop down into a squat position and place your hands on the ground."
+          },
+          {
+            "name": "Mountain Climbers",
+            "sets": 3,
+            "reps": 10,
+            "weight": "None",
+            "description": "A high-intensity exercise that targets your core and legs. Start in a plank position, then bring one knee up towards your chest and quickly switch to the other knee."
+          },
+          {
+            "name": "Plank",
+            "sets": 3,
+            "reps": 30,
+            "weight": "None",
+            "description": "Targets the core muscles. Start in a plank position, then hold for 30-60 seconds."
+          },
+          {
+            "name": "Side Plank",
+            "sets": 3,
+            "reps": 30,
+            "weight": "None",
+            "description": "Targets the obliques. Lie on your side with your feet stacked and hands under your shoulders, then lift your hips up towards the ceiling."
+          },
+          {
+            "name": "Cool-down",
+            "sets": "None",
+            "reps": "None",
+            "weight": "None",
+            "description": "5-10 minutes of stretching to help your body recover from the workout."
+          }
+        ]
+      }
+    ]
+  }
+}

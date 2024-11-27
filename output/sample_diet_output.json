@@ -1,0 +1,342 @@
+{
+  "success": {
+    "monday": {
+      "breakfast": {
+        "name": "Spinach and Mushroom Omelette",
+        "ingredients": [
+          "whole wheat bread",
+          "spinach",
+          "mushrooms",
+          "tomato"
+        ],
+        "recipe": "Whisk eggs, add spinach, mushrooms, and tomato, cook in a pan",
+        "calories": 300,
+        "s3_location": "s3://forge-meal-image/1/monday/breakfast.png"
+      },
+      "lunch": {
+        "name": "Lentil Soup with Whole Wheat Bread",
+        "ingredients": [
+          "lentils",
+          "onions",
+          "carrots",
+          "celery",
+          "whole wheat bread"
+        ],
+        "recipe": "Saute onions, carrots, and celery, add lentils and broth, serve with whole wheat bread",
+        "calories": 450,
+        "s3_location": "s3://forge-meal-image/1/monday/lunch.png"
+      },
+      "snacks": {
+        "name": "Cucumber Slices with Hummus",
+        "ingredients": [
+          "cucumber",
+          "hummus"
+        ],
+        "recipe": "Dip cucumber slices in hummus",
+        "calories": 100,
+        "s3_location": "s3://forge-meal-image/1/monday/snacks.png"
+      },
+      "dinner": {
+        "name": "Grilled Tofu with Roasted Vegetables",
+        "ingredients": [
+          "tofu",
+          "bell peppers",
+          "zucchini",
+          "onions",
+          "olive oil"
+        ],
+        "recipe": "Grill tofu, roast bell peppers, zucchini, and onions with olive oil",
+        "calories": 500,
+        "s3_location": "s3://forge-meal-image/1/monday/dinner.png"
+      }
+    },
+    "tuesday": {
+      "breakfast": {
+        "name": "Chia Seed Pudding with Berries",
+        "ingredients": [
+          "chia seeds",
+          "milk",
+          "mixed berries"
+        ],
+        "recipe": "Mix chia seeds with milk, top with mixed berries",
+        "calories": 250,
+        "s3_location": "s3://forge-meal-image/1/tuesday/breakfast.png"
+      },
+      "lunch": {
+        "name": "Quinoa Salad with Roasted Vegetables",
+        "ingredients": [
+          "quinoa",
+          "roasted vegetables",
+          "lemon juice",
+          "herbs"
+        ],
+        "recipe": "Mix cooked quinoa with roasted vegetables, lemon juice, and herbs",
+        "calories": 400,
+        "s3_location": "s3://forge-meal-image/1/tuesday/lunch.png"
+      },
+      "snacks": {
+        "name": "Apple Slices with Almond Butter",
+        "ingredients": [
+          "apple",
+          "almond butter"
+        ],
+        "recipe": "Spread almond butter on apple slices",
+        "calories": 150,
+        "s3_location": "s3://forge-meal-image/1/tuesday/snacks.png"
+      },
+      "dinner": {
+        "name": "Baked Sweet Potato with Black Beans and Avocado",
+        "ingredients": [
+          "sweet potato",
+          "black beans",
+          "avocado",
+          "salsa"
+        ],
+        "recipe": "Bake sweet potato, top with black beans, avocado, and salsa",
+        "calories": 550,
+        "s3_location": "s3://forge-meal-image/1/tuesday/dinner.png"
+      }
+    },
+    "wednesday": {
+      "breakfast": {
+        "name": "Green Smoothie",
+        "ingredients": [
+          "spinach",
+          "banana",
+          "milk",
+          "honey"
+        ],
+        "recipe": "Blend spinach, banana, milk, and honey",
+        "calories": 300,
+        "s3_location": "s3://forge-meal-image/1/wednesday/breakfast.png"
+      },
+      "lunch": {
+        "name": "Grilled Portobello Mushroom Burgers",
+        "ingredients": [
+          "portobello mushrooms",
+          "whole wheat buns",
+          "lettuce",
+          "tomato"
+        ],
+        "recipe": "Grill portobello mushrooms, serve on whole wheat buns with lettuce and tomato",
+        "calories": 400,
+        "s3_location": "s3://forge-meal-image/1/wednesday/lunch.png"
+      },
+      "snacks": {
+        "name": "Carrot Sticks with Guacamole",
+        "ingredients": [
+          "carrot sticks",
+          "avocado"
+        ],
+        "recipe": "Dip carrot sticks in guacamole",
+        "calories": 120,
+        "s3_location": "s3://forge-meal-image/1/wednesday/snacks.png"
+      },
+      "dinner": {
+        "name": "Stir-Fried Tofu with Broccoli and Brown Rice",
+        "ingredients": [
+          "tofu",
+          "broccoli",
+          "brown rice",
+          "soy sauce"
+        ],
+        "recipe": "Stir-fry tofu, broccoli, and brown rice with soy sauce",
+        "calories": 500,
+        "s3_location": "s3://forge-meal-image/1/wednesday/dinner.png"
+      }
+    },
+    "thursday": {
+      "breakfast": {
+        "name": "Oatmeal with Banana and Honey",
+        "ingredients": [
+          "oats",
+          "milk",
+          "banana",
+          "honey"
+        ],
+        "recipe": "Cook oats with milk, top with sliced banana and honey",
+        "calories": 350,
+        "s3_location": "s3://forge-meal-image/1/thursday/breakfast.png"
+      },
+      "lunch": {
+        "name": "Lentil and Vegetable Curry",
+        "ingredients": [
+          "lentils",
+          "onions",
+          "carrots",
+          "celery",
+          "curry powder"
+        ],
+        "recipe": "Saute onions, carrots, and celery, add lentils and curry powder, serve with brown rice",
+        "calories": 450,
+        "s3_location": "s3://forge-meal-image/1/thursday/lunch.png"
+      },
+      "snacks": {
+        "name": "Cucumber Slices with Dill Dip",
+        "ingredients": [
+          "cucumber",
+          "dill dip"
+        ],
+        "recipe": "Dip cucumber slices in dill dip",
+        "calories": 100,
+        "s3_location": "s3://forge-meal-image/1/thursday/snacks.png"
+      },
+      "dinner": {
+        "name": "Grilled Eggplant with Quinoa and Roasted Vegetables",
+        "ingredients": [
+          "eggplant",
+          "quinoa",
+          "roasted vegetables",
+          "olive oil"
+        ],
+        "recipe": "Grill eggplant, serve with quinoa and roasted vegetables",
+        "calories": 500,
+        "s3_location": "s3://forge-meal-image/1/thursday/dinner.png"
+      }
+    },
+    "friday": {
+      "breakfast": {
+        "name": "Chia Seed Pudding with Coconut Flakes",
+        "ingredients": [
+          "chia seeds",
+          "milk",
+          "coconut flakes"
+        ],
+        "recipe": "Mix chia seeds with milk, top with coconut flakes",
+        "calories": 250,
+        "s3_location": "s3://forge-meal-image/1/friday/breakfast.png"
+      },
+      "lunch": {
+        "name": "Turkey and Avocado Wrap",
+        "ingredients": [
+          "whole wheat wrap",
+          "sliced turkey breast",
+          "avocado",
+          "lettuce"
+        ],
+        "recipe": "Wrap sliced turkey breast, avocado, and lettuce in whole wheat wrap",
+        "calories": 400,
+        "s3_location": "s3://forge-meal-image/1/friday/lunch.png"
+      },
+      "snacks": {
+        "name": "Apple Slices with Peanut Butter",
+        "ingredients": [
+          "apple",
+          "peanut butter"
+        ],
+        "recipe": "Spread peanut butter on apple slices",
+        "calories": 150,
+        "s3_location": "s3://forge-meal-image/1/friday/snacks.png"
+      },
+      "dinner": {
+        "name": "Baked Chicken Breast with Roasted Asparagus and Quinoa",
+        "ingredients": [
+          "chicken breast",
+          "asparagus",
+          "quinoa",
+          "olive oil"
+        ],
+        "recipe": "Bake chicken breast, roast asparagus, and serve with quinoa",
+        "calories": 500,
+        "s3_location": "s3://forge-meal-image/1/friday/dinner.png"
+      }
+    },
+    "saturday": {
+      "breakfast": {
+        "name": "Green Smoothie Bowl",
+        "ingredients": [
+          "spinach",
+          "banana",
+          "milk",
+          "honey",
+          "granola"
+        ],
+        "recipe": "Blend spinach, banana, milk, and honey, top with granola",
+        "calories": 350,
+        "s3_location": "s3://forge-meal-image/1/saturday/breakfast.png"
+      },
+      "lunch": {
+        "name": "Lentil and Vegetable Stew",
+        "ingredients": [
+          "lentils",
+          "onions",
+          "carrots",
+          "celery",
+          "vegetable broth"
+        ],
+        "recipe": "Saute onions, carrots, and celery, add lentils and vegetable broth, serve with whole wheat bread",
+        "calories": 450,
+        "s3_location": "s3://forge-meal-image/1/saturday/lunch.png"
+      },
+      "snacks": {
+        "name": "Cucumber Slices with Hummus",
+        "ingredients": [
+          "cucumber",
+          "hummus"
+        ],
+        "recipe": "Dip cucumber slices in hummus",
+        "calories": 100,
+        "s3_location": "s3://forge-meal-image/1/saturday/snacks.png"
+      },
+      "dinner": {
+        "name": "Grilled Portobello Mushroom Burgers with Sweet Potato Fries",
+        "ingredients": [
+          "portobello mushrooms",
+          "sweet potatoes",
+          "olive oil"
+        ],
+        "recipe": "Grill portobello mushrooms, serve with sweet potato fries",
+        "calories": 550,
+        "s3_location": "s3://forge-meal-image/1/saturday/dinner.png"
+      }
+    },
+    "sunday": {
+      "breakfast": {
+        "name": "Omelette with Mushrooms and Spinach",
+        "ingredients": [
+          "eggs",
+          "mushrooms",
+          "spinach",
+          "tomato"
+        ],
+        "recipe": "Whisk eggs, add mushrooms, spinach, and tomato, cook in a pan",
+        "calories": 300,
+        "s3_location": "s3://forge-meal-image/1/sunday/breakfast.png"
+      },
+      "lunch": {
+        "name": "Quinoa Salad with Roasted Vegetables and Lemon Vinaigrette",
+        "ingredients": [
+          "quinoa",
+          "roasted vegetables",
+          "lemon juice",
+          "herbs"
+        ],
+        "recipe": "Mix cooked quinoa with roasted vegetables, lemon juice, and herbs",
+        "calories": 400,
+        "s3_location": "s3://forge-meal-image/1/sunday/lunch.png"
+      },
+      "snacks": {
+        "name": "Carrot Sticks with Guacamole",
+        "ingredients": [
+          "carrot sticks",
+          "avocado"
+        ],
+        "recipe": "Dip carrot sticks in guacamole",
+        "calories": 120,
+        "s3_location": "s3://forge-meal-image/1/sunday/snacks.png"
+      },
+      "dinner": {
+        "name": "Baked Sweet Potato with Black Beans, Avocado, and Salsa",
+        "ingredients": [
+          "sweet potato",
+          "black beans",
+          "avocado",
+          "salsa"
+        ],
+        "recipe": "Bake sweet potato, top with black beans, avocado, and salsa",
+        "calories": 550,
+        "s3_location": "s3://forge-meal-image/1/sunday/dinner.png"
+      }
+    }
+  }
+}

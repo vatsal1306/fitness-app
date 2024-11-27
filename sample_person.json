@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "age": 25,
+  "gender": "male",
+  "height": "170 cm",
+  "weight": "84 kg",
+  "current_body_type": "fat",
+  "target_body_type": "slim",
+  "diet_preference": "veg",
+  "allergens": "egg"
+}

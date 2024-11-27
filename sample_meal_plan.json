@@ -1,0 +1,94 @@
+{
+    "monday": {
+        "breakfast": {
+            "name": "Avocado Toast",
+            "ingredients": [
+                "whole wheat bread",
+                "avocado",
+                "cherry tomatoes",
+                "feta cheese"
+            ],
+            "recipe": "Toast whole wheat bread, mash avocado, and top with cherry tomatoes and crumbled feta cheese",
+            "calories": 350
+        },
+        "lunch": {
+            "name": "Grilled Chicken Wrap",
+            "ingredients": [
+                "whole wheat wrap",
+                "grilled chicken breast",
+                "lettuce",
+                "cucumber",
+                "hummus"
+            ],
+            "recipe": "Grill chicken breast, wrap in whole wheat wrap with lettuce, cucumber, and hummus.",
+            "calories": 400
+        },
+        "snacks": {
+            "name": "Greek Yogurt with Berries",
+            "ingredients": [
+                "Greek yogurt",
+                "mixed berries"
+            ],
+            "recipe": "Mix Greek yogurt with mixed berries",
+            "calories": 150
+        },
+        "dinner": {
+            "name": "Baked Salmon with Quinoa and Broccoli",
+            "ingredients": [
+                "salmon fillet",
+                "quinoa",
+                "broccoli",
+                "lemon",
+                "herbs"
+            ],
+            "recipe": "Bake salmon fillet with lemon and herbs, serve with cooked quinoa and steamed broccoli.",
+            "calories": 500
+        }
+    },
+    "tuesday": {
+        "breakfast": {
+            "name": "Oatmeal with Banana and Nuts",
+            "ingredients": [
+                "oats",
+                "milk",
+                "banana",
+                "walnuts"
+            ],
+            "recipe": "Cook oats with milk, top with sliced banana and chopped walnuts",
+            "calories": 400
+        },
+        "lunch": {
+            "name": "Turkey and Avocado Salad",
+            "ingredients": [
+                "sliced turkey breast",
+                "avocado",
+                "lettuce",
+                "cherry tomatoes",
+                "cucumber"
+            ],
+            "recipe": "Mix sliced turkey breast, avocado, lettuce, cherry tomatoes, and cucumber",
+            "calories": 450
+        },
+        "snacks": {
+            "name": "Carrot Sticks with Hummus",
+            "ingredients": [
+                "carrot sticks",
+                "hummus"
+            ],
+            "recipe": "Dip carrot sticks in hummus",
+            "calories": 100
+        },
+        "dinner": {
+            "name": "Grilled Chicken Breast with Roasted Vegetables",
+            "ingredients": [
+                "chicken breast",
+                "bell peppers",
+                "zucchini",
+                "onions",
+                "olive oil"
+            ],
+            "recipe": "Grill chicken breast, roast bell peppers, zucchini, and onions with olive oil",
+            "calories": 500
+        }
+    }
+}

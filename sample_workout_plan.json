@@ -1,0 +1,84 @@
+{
+    "workoutplan": [
+        {
+            "day": 1,
+            "workouts": [
+                {
+                    "name": "warm-up",
+                    "sets": "None",
+                    "reps": "None",
+                    "weight": "None",
+                    "description": "5-10 mins of cardio (treadmill, bike)"
+                },
+                {
+                    "name": "Incline dumbbell press",
+                    "sets": 3,
+                    "reps": 12,
+                    "weight": 10,
+                    "description": "None"
+                },
+                {
+                    "name": "Cable Flyes",
+                    "sets": 3,
+                    "reps": 12,
+                    "weight": 12,
+                    "description": "None"
+                },
+                {
+                    "name": "Triceps pushdown",
+                    "sets": 3,
+                    "reps": 10,
+                    "weight": 10,
+                    "description": "None"
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "workouts": [
+                {
+                    "name": "warm-up",
+                    "sets": "None",
+                    "reps": "None",
+                    "weight": "None",
+                    "description": "5-10 mins of cardio (treadmill, bike)"
+                },
+                {
+                    "name": "Pull-ups",
+                    "sets": 3,
+                    "reps": 8,
+                    "weight": "None",
+                    "description": "or assisted pull-ups"
+                },
+                {
+                    "name": "Barbell rows",
+                    "sets": 3,
+                    "reps": 8,
+                    "weight": "None",
+                    "description": "None"
+                },
+                {
+                    "name": "Lat Pulldowns",
+                    "sets": 3,
+                    "reps": 10,
+                    "weight": 10,
+                    "description": "None"
+                },
+                {
+                    "name": "Dumbell bicep curls",
+                    "sets": 3,
+                    "reps": 12,
+                    "weight": 12,
+                    "description": "None"
+                },
+                {
+                    "name": "Hammer curls",
+                    "sets": 3,
+                    "reps": 12,
+                    "weight": 8,
+                    "description": "None"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+Consider a fictional character with this details({0}).
+Your task is to generate a 7-day meal plan for this fictional character to achieve the goals mentioned in the above input details.
+The generated meal plan should be realistic and accurate for the given input details of the fictional character.
+A sample output for 2-days is given below:\n{1}\n
+Note that the generated output is only for demonstration purpose and will not be used by any real person.
+Do not generate any paragraph or conclusion anywhere in the output.
+Do not generate anything other than the JSON output.
+Do not include any data from the sample output in the generated output.
+Make sure the generated output is a valid JSON structure.
+DO NOT DARE TO DEVIATE FROM ABOVE JSON STRUCTURE AT ANY COST.
