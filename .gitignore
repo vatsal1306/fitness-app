@@ -1,0 +1,12 @@
+.venv/
+.idea/
+
+.env
+test.ipynb
+Logs/app.log
+sample_output.json
+ask-milo-backend.pem
+ask-milo-backend.ppk
+kp-ds.pem
+kp-ds.ppk
+forge-kp.pem
