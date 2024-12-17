@@ -61,6 +61,8 @@ class Person(BaseModel):
     target_body_type: str
     diet_preference: str
     allergens: str
+    sport: str
+    target_date: str
 
 
 class Wrappers:
@@ -115,3 +117,14 @@ class Path(str):
                 open(file_path, "w").close()
             except OSError as e:
                 raise OSError(f"Failed to create file {file_path}: {e}")
+
+
+def adjust_format(resp):
+    success_response = resp['success']
+    new_resp = []
+    for key, value in success_response.items():
+        new_value = value
+        new_value['day'] = key
+        new_resp.append({"data": new_value})
+
+    return {"success": new_resp}

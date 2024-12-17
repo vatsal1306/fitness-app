@@ -10,7 +10,7 @@ from fastapi import FastAPI
 
 from src import ROOT_DIR
 from src.Logging import logger
-from src.Utils.utils import Person, Response
+from src.Utils.utils import Person, Response, adjust_format
 from src.model import LLM
 
 app = FastAPI()
@@ -48,6 +48,8 @@ async def test_meal(item: Person):
     resp = {}
     with open(os.path.join(ROOT_DIR, 'output', 'sample_diet_output.json')) as f:
         resp = json.load(f)
+
+    resp = adjust_format(resp)
     return resp
 
 
@@ -87,6 +89,7 @@ async def meal(item: Person):
         model = LLM()
         response: Response = model.get_text_response(item, "meal")
         response: Response = model.generate_image(response, item.id)
+        response: Response = adjust_format(response)
         logger.info(f"/meal done in {time() - meal_start} seconds.")
         return response
     except Exception as e:
