@@ -7,5 +7,7 @@
   "current_body_type": "fat",
   "target_body_type": "slim",
   "diet_preference": "veg",
-  "allergens": "egg"
+  "allergens": "egg",
+  "sport": "string",
+  "target_date": "string"
 }

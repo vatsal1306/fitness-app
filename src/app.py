@@ -10,7 +10,7 @@ from fastapi import FastAPI
 
 from src import ROOT_DIR
 from src.Logging import logger
-from src.Utils.utils import Person, Response, adjust_format
+from src.Utils.utils import Person, Response, adjust_format, adjust_workout
 from src.model import LLM
 
 app = FastAPI()
@@ -40,6 +40,8 @@ async def test_workout(item: Person):
     resp = {}
     with open(os.path.join(ROOT_DIR, 'output', 'sample_workout_output.json')) as f:
         resp = json.load(f)
+
+    resp = adjust_workout(resp)
     return resp
 
 
@@ -74,6 +76,7 @@ async def workout(item: Person):
         logger.info(f"Executing /workout for - {item}")
         model = LLM()
         response: Response = model.get_text_response(item, "workout")
+        response: Response = adjust_workout(response)
         logger.info(f"/workout done in {time() - workout_start} seconds.")
         return response
     except Exception as e:

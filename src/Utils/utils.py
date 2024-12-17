@@ -128,3 +128,25 @@ def adjust_format(resp):
         new_resp.append({"data": new_value})
 
     return {"success": new_resp}
+
+def adjust_workout(resp):
+    success_response = resp['success']['workoutplan']
+    # new_resp = []
+    for item in success_response:
+        match item['day']:
+            case 1:
+                item['day'] = 'monday'
+            case 2:
+                item['day'] = 'tuesday'
+            case 3:
+                item['day'] = 'wednesday'
+            case 4:
+                item['day'] = 'thursday'
+            case 5:
+                item['day'] = 'friday'
+            case 6:
+                item['day'] = 'saturday'
+            case 7:
+                item['day'] = 'sunday'
+
+    return resp
