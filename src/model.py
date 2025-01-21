@@ -37,6 +37,11 @@ with open(os.path.join(ROOT_DIR, "sample_water_intake.json"), 'r') as f:
     water_plan = json.load(f)
 logger.info("Loaded sample water intake")
 
+days = {}
+with open(os.path.join(ROOT_DIR, "sample_days.json"), 'r') as f:
+    days = json.load(f)
+logger.info("Loaded sample days")
+
 
 class FileReader:
     def __init__(self):
@@ -46,6 +51,8 @@ class FileReader:
         self.diet_sp = self._read_file(os.path.join(ROOT_DIR, "prompts", "diet_system_prompt.txt"))
         self.water_sp = self._read_file(os.path.join(ROOT_DIR, "prompts", "water_system_prompt.txt"))
         self.water_up = self._read_file(os.path.join(ROOT_DIR, "prompts", "water_usr_prompt.txt"))
+        self.days_sp = self._read_file(os.path.join(ROOT_DIR, "prompts", "days_system_prompt.txt"))
+        self.days_up = self._read_file(os.path.join(ROOT_DIR, "prompts", "days_usr_prompt.txt"))
 
     def _read_file(self, filepath: str) -> str:
         if os.path.exists(filepath):
@@ -151,7 +158,7 @@ class LLM(FileReader):
 
         return resp_dict
 
-    def get_text_response(self, data: Person, event: str) -> Response:
+    def get_text_response(self, data: Person, event: str, workout_details: str = None) -> Response:
         usr_data = f"Age={data.age}, Gender={data.gender}, Height={data.height}, Weight={data.weight}, current bodytype={data.current_body_type}, target bodytype={data.target_body_type}, diet preference={data.diet_preference}, Allergy={data.allergens}"
         match event:
             case "workout":
@@ -169,6 +176,11 @@ class LLM(FileReader):
                 self.water_up = self.water_up.format(usr_data, water_plan)
                 usr_message = [{"role": "user", "content": [{"text": self.water_up}]}]
                 logger.info(f"Water prompt - {self.water_up}")
+            case "days":
+                system_msg = [{"text": self.days_sp}]
+                self.days_up = self.days_up.format(usr_data, workout_details, days)
+                usr_message = [{"role": "user", "content": [{"text": self.days_up}]}]
+                logger.info(f"Days prompt - {self.days_up}")
             case _:
                 logger.exception(f"{event} is not a valid case.")
                 return {"error": f"TypeError: got invalid case [{event}]. Expected [workout, meal]."}

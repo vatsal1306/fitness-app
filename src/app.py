@@ -41,7 +41,7 @@ async def test_workout(item: Person):
     with open(os.path.join(ROOT_DIR, 'output', 'sample_workout_output.json')) as f:
         resp = json.load(f)
 
-    resp = adjust_workout(resp)
+    # resp = adjust_workout(resp)
     return resp
 
 
@@ -77,6 +77,8 @@ async def workout(item: Person):
         model = LLM()
         response: Response = model.get_text_response(item, "workout")
         response: Response = adjust_workout(response)
+        days_resp = model.get_text_response(item, "days", workout_details=response['success']['workoutplan'])
+        response['success']['days'] = days_resp['success']['days']
         logger.info(f"/workout done in {time() - workout_start} seconds.")
         return response
     except Exception as e:
